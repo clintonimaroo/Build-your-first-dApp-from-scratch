@@ -38,7 +38,7 @@ Once you have successful hosted your moralis server, now let's jump to the next 
 
     <script>
        const serverUrl = "https://localhost:xxxx/server";
-       const appId = "YOUR_APP_ID"; //Your app id can be found in your [.env folder](https://moralis.io/)
+       const appId = "YOUR_APP_ID"; //Your app id can be found in your [.env folder](https://github.com/clintonimaroo/Build-your-first-dApp-from-scratch/blob/main/.env)
        Moralis.start({ serverUrl, appId });
 
        async function login() {
