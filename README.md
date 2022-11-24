@@ -15,18 +15,31 @@ Once you have successful hosted your moralis server, now let's jump to the next 
 
 <!DOCTYPE html>
 <html>
-   <head>
-     <title>Page Title</title>
-   </head>
-  
-   <body>
-     <h1>Login</h1>
-   
-      <button id="login">Login</button>
-     
-   </body>
+  <head>
+    <title>Build your first dapp with moralis</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  </head>
+
+  <body>
+    <h1>Login</h1>
+
+    <button onclick=”login()” id="login">Login</button>
+
+    <script>
+       const serverUrl = "https://localhost:xxxx/server";
+       const appId = "YOUR_APP_ID"; //Your app id can be found in your [.env folder](https://moralis.io/)
+       Moralis.start({ serverUrl, appId });
+
+       async function login() {
+           Await Moralis.authenticate()
+       }
+
+    </script>
+
+  </body>
 </html>
 
 ```
 
-- Install dependencies with  
+- Now, Let's run the code to access our dApp.
