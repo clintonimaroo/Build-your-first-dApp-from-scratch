@@ -7,6 +7,16 @@ So before we get started, We need to create a new moralis server, Unfortunately 
 
 Once you have successful hosted your moralis server, now let's jump to the next stage.
 
+## Prerequisites to run the website locally:
+
+- [npm and node](https://docs.npmjs.com/cli/v8/configuring-npm/install)
+- [yarn](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
+
+## Database:
+
+- [mongodb](https://www.mongodb.com/)
+
+
 ## Build Your First dApp – Code
 
 - Since we have hosted our [moralis server](https://moralis.io/). So now we need to include the Moralis code into our dApp, To do this we will start with a basic HTML structure.
