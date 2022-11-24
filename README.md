@@ -20,10 +20,9 @@ Once you have successful hosted your moralis server, now let's jump to the next 
    </head>
   
    <body>
-     <h1>My First Heading</h1>
+     <h1>Login</h1>
    
-      <p>My first paragraph.</p>
-
+      <button id="login">Login</button>
      
    </body>
 </html>
